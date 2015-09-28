@@ -3,16 +3,43 @@
 <head>
 <title>
 </title>
-<script src="day2-advanced_javascript.js"></script>
+<!-- <script src="day2-advanced_javascript.js"></script> -->
 </head>
 
 
 <body>
 
 
-<h1>My First Heading</h1>
+<!-- <h1>My First Heading</h1>
 
 <p>My first paragraph.</p>
-<button type="button" onclick="alert('justin')">clickme</button>
+<button type="button" onclick="alert('justin')">clickme</button> -->
+
+<script type="text/javascript">
+
+//change
+
+for (i = 99 ; i > 0 ; i--) {
+    j = i - 1;
+    if (i != 1) { 
+      icase = "bottles"; 
+    } else { 
+      icase = "bottle";
+    }
+    if (j != 1) {
+      jcase = "bottles";
+    } else {
+      jcase = "bottle";
+    }
+    console.log(i + " " + icase + " of beer on the wall,");
+    console.log(i + " " + icase + " of beer,");
+    console.log("Take 1 down, pass it around,");
+    if (j != 0) {
+      console.log(j + " " + jcase + " of beer on the wall.");
+    } else {
+      console.log("No more bottles of beer on the wall!");
+    }
+  }
+</script>
 </body>
 </html>
